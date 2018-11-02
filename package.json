@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-lib.git"
+    "url": "https://github.com/bitpay/acmcore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -42,7 +42,7 @@
     "lodash": "=4.17.4"
   },
   "devDependencies": {
-    "bitcore-build": "https://github.com/Actinium-project/acmcore-build.git",
+    "acmcore-build": "https://github.com/Actinium-project/acmcore-build.git",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",

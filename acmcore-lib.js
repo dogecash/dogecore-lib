@@ -54020,7 +54020,7 @@ arguments[4][262][0].apply(exports,arguments)
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],320:[function(require,module,exports){
 module.exports={
-  "name": "bitcore-lib",
+  "name": "acmcore-lib",
   "version": "0.15.0",
   "description": "A pure and powerful JavaScript Bitcoin library.",
   "author": "BitPay <dev@bitpay.com>",
@@ -54049,7 +54049,7 @@ module.exports={
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcore-lib.git"
+    "url": "https://github.com/bitpay/acmcore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -54063,7 +54063,7 @@ module.exports={
     "lodash": "=4.17.4"
   },
   "devDependencies": {
-    "bitcore-build": "https://github.com/bitpay/bitcore-build.git#d4e8b2b2f1e2c065c3a807dcb6a6250f61d67ab3",
+    "acmcore-build": "https://github.com/Actinium-project/acmcore-build.git",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
@@ -54072,7 +54072,7 @@ module.exports={
   "license": "MIT"
 }
 
-},{}],"bitcore-lib":[function(require,module,exports){
+},{}],"acmcore-lib":[function(require,module,exports){
 (function (global,Buffer){
 'use strict';
 
@@ -54082,9 +54082,9 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of bitcore-lib found. ' +
-      'Please make sure to require bitcore-lib and check that submodules do' +
-      ' not also include their own bitcore-lib dependency.';
+    var message = 'More than one instance of acmcore-lib found. ' +
+      'Please make sure to require acmcore-lib and check that submodules do' +
+      ' not also include their own acmcore-lib dependency.';
     throw new Error(message);
   }
 };

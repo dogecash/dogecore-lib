@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('bitcore-build');
+var bitcoreTasks = require('acmcore-build');
 
 bitcoreTasks('lib');
