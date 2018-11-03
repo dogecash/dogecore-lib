@@ -5,7 +5,7 @@ The easiest and recommended way to use them, is via [Bower](http://bower.io/), a
 
 ```sh
 bower install acmcore-lib
-bower install bitcore-mnemonic
+bower install acmcore-mnemonic
 ```
 
 You can also use a `bower.json` file to store the dependencies of your project:
@@ -32,15 +32,15 @@ After this, you can include the bundled release versions in your HTML file:
 
 <head>
   <meta charset="utf-8">
-  <script src="bower_components/bitcore/acmcore-lib.min.js"></script>
-  <script src="bower_components/bitcore-mnemonic/bitcore-mnemonic.min.js"></script>
+  <script src="bower_components/acmcore/acmcore-lib.min.js"></script>
+  <script src="bower_components/acmcore-mnemonic/acmcore-mnemonic.min.js"></script>
 </head>
 
 <body>
 
   <script type="text/javascript">
     var bitcore = require('acmcore-lib');
-    var Mnemonic = require('bitcore-mnemonic');
+    var Mnemonic = require('acmcore-mnemonic');
     // etc...
   </script>
 
