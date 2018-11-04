@@ -1,8 +1,8 @@
 {
   "name": "acmcore-lib",
-  "version": "0.15.0",
+  "version": "1.0.0",
   "description": "A pure and powerful JavaScript Actinium library.",
-  "author": "BitPay <dev@bitpay.com>",
+  "author": "Harris Brakmic <brakmicgmail.com>",
   "main": "index.js",
   "scripts": {
     "lint": "gulp lint",
