@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/Actinium-project/dogecore-lib.git"
+    "url": "https://github.com/dogecash/dogecore-lib.git"
   },
   "browser": {
     "request": "browser-request"
@@ -42,7 +42,7 @@
     "lodash": "=4.17.4"
   },
   "devDependencies": {
-    "dogecore-build": "https://github.com/Actinium-project/dogecore-build.git",
+    "dogecore-build": "https://github.com/dogecash/dogecore-build.git",
     "brfs": "^1.2.0",
     "chai": "^1.10.0",
     "gulp": "^3.8.10",
