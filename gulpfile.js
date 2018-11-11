@@ -1,5 +1,5 @@
 
 
-var bitcoreTasks = require('acmcore-build');
+var bitcoreTasks = require('dogecore-build');
 
 bitcoreTasks('lib');

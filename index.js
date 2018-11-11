@@ -6,9 +6,9 @@ var bitcore = module.exports;
 bitcore.version = 'v' + require('./package.json').version;
 bitcore.versionGuard = function(version) {
   if (version !== undefined) {
-    var message = 'More than one instance of acmcore-lib found. ' +
-      'Please make sure to require acmcore-lib and check that submodules do' +
-      ' not also include their own acmcore-lib dependency.';
+    var message = 'More than one instance of dogecore-lib found. ' +
+      'Please make sure to require dogecore-lib and check that submodules do' +
+      ' not also include their own dogecore-lib dependency.';
     throw new Error(message);
   }
 };
